@@ -28,7 +28,7 @@
   <project name="l-loader" remote="96b-hk" revision="cddd213c1b820d5f224d20b38581c504552dd59e"/>
   <project name="optee_client" revision="hikey"/>
   <project name="optee_os" revision="hikey"/>
-  <project name="optee_test"/>
+  <project name="optee_test" revision="hikey"/>
   <project name="optee_app"/>
   <project name="patches_hikey" remote="linaro-swg" revision="93d4254c66003cacd9f7e84dd6b5831ab43b5265"/>
   <project name="rpk" path="linux" revision="hikey"/>
