@@ -10,6 +10,7 @@
   <remote fetch="https://github.com/OP-TEE" name="optee"/>
   <remote fetch="git://git.savannah.gnu.org" name="savannah"/>
   <remote fetch="git://git.code.sf.net/p/strace" name="sfnet"/>
+  <remote fetch="https://github.com/artorhem" name="puneet" />
   <!---Default repo and branch-->
   <default remote="trustedcapsules" revision="master"/>
 
@@ -27,9 +28,11 @@
   <project name="hello_world" remote="linaro-swg" revision="2c15acb431bcde20beb0277c3acdab6d0b4894ef"/>
   <project name="l-loader" remote="96b-hk" revision="cddd213c1b820d5f224d20b38581c504552dd59e"/>
   <project name="optee_client" revision="hikey"/>
-  <project name="optee_os" revision="hikey"/>
+  <project name="optee_os" revision="master" remote="optee"/>
   <project name="optee_test" revision="hikey"/>
   <project name="optee_app"/>
-  <project name="patches_hikey" remote="linaro-swg" revision="93d4254c66003cacd9f7e84dd6b5831ab43b5265"/>
-  <project name="rpk" path="linux" revision="hikey"/>
+  <project name="patches_hikey" remote="linaro-swg" revision="d9c07f0ac0ce5fe57d367be82b8673aae8e81e96"/>
+  <!--project name="patches_hikey" remote="linaro-swg" revision="93d4254c66003cacd9f7e84dd6b5831ab43b5265"/-->
+  <project name="rpk" path="linux" remote="puneet"/>
+  <!--project name="rpk" path="linux" revision="hikey"/-->
 </manifest>
