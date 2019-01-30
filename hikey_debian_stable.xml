@@ -17,7 +17,7 @@
   <!---Projects to pull-->
   <project name="OpenPlatformPkg" remote="96b-hk" revision="56dec05002f6870928336da5da99d1e1027692e8"/>
   <project name="arm-trusted-firmware" remote="96b-hk" revision="fb1158a365e2bf5bba638cde950678fddf67fe60"/>
-  <project name="build" revision="hikey">
+  <project name="build" revision="hikey_updated">
     <linkfile dest="build/Makefile" src="hikey_debian.mk"/>
   </project>
   <project name="burn-boot" remote="96boards" revision="db522b114fdec4d06d0a1705501fedc277903453"/>
